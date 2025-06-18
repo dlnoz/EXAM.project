@@ -1,52 +1,62 @@
 let passwords = [
     {
         id: 1,
-        name: "dilnoza",
+        name: "Dilnoza",
+        lastname: "Raxmatullaeva",
         password: 123
     },
     {
         id: 2,
-        name: "sevinch",
+        name: "Sevinch",
+        lastname: "Ismoilova",
         password: 123
     },
     {
         id: 3,
-        name: "iroda",
+        name: "Iroda",
+        lastname: "Abdullayeva",
         password: 123
     },
     {
         id: 4,
-        name: "rayhona",
+        name: "Rayhona",
+        lastname: "Alikulova",
         password: 123
     },
     {
         id: 5,
-        name: "muslima",
+        name: "Muslima",
+        lastname: "Yoqubova", 
         password: 123
     },
     {
         id: 6,
-        name: "laylo",
+        name: "Laylo",
+        lastname: "Ismatullayeva",
         password: 123
     },
     {
         id: 7,
         name: "nigora",
+        lastname: "Hasanova",
         password: 123
     },
     {
         id: 8,
         name: "shaxnoza",
+        lastname: "Ikromova",
         password: 123
     },
     {
         id: 9,
         name: "asal",
+        lastname: "Shodiyeva",
         password: 123
     },
     {
         id: 10,
         name: "guli",
+        lastname: "Shokirova",
         password: 123
     }
 ]

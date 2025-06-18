@@ -8,6 +8,6 @@ userName.textContent = user.username
 console.log(userName);
 
 changeInput.addEventListener("change", function (e) {
-  changeImg.src = URL.createObjectURL(e.target.files[0])
-   changeImg.className = "w-[100px] h-[100px] rounded-full mx-auto mb-[12px] flex flex-col"
+    changeImg.src = URL.createObjectURL(e.target.files[0])
+    changeImg.className = "w-[100px] h-[100px] rounded-full mx-auto mb-[12px] flex flex-col"
 })

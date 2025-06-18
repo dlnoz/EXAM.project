@@ -11,10 +11,12 @@
     
     <div class="flex">
 <!--  ---------- Teachers-login page (left) start  ---------- -->
-        <div class="w-[25%] h-[100vh] bg-[#152259] flex justify-center">
-            <div>
-                <img src="" alt="">
-            </div>
+        <div class="w-[25%] h-[100vh] bg-[#152259] flex flex-col">
+           <label>
+                <input class="change-img-input hidden" type="file">
+                <img class="change-img mb-[12px] mx-auto" src="" alt="admin logo">
+                <p class="user-name text-center text-white"></p>
+            </label>
 
             <ul class="">
                 <li class="w-[195px] h-[40px] rounded-[4px] flex items-center gap-[15px] pl-[15px] active:bg-[#509CDB]">
@@ -99,23 +101,46 @@
                         <span class="font-medium text-[14px] text-[#8A8A8A]">Email address</span>
                         <input class="font-medium text-[14px] text-[#8A8A8A] w-[407px] h-[42px] border-[#A7A7A7] border-[0.5px] rounded-[4px] pl-[10px] outline-none" type="text" placeholder="Email address">
                     </label>
-                    <label class="flex flex-col gap-[5px]">
+                    <label for="subject" class="flex flex-col gap-[5px]">
                         <span class="font-medium text-[14px] text-[#8A8A8A]">Subject</span>
-                        <input class="font-medium text-[14px] text-[#8A8A8A] w-[407px] h-[42px] border-[#A7A7A7] border-[0.5px] rounded-[4px] pl-[10px] outline-none" type="text" placeholder="Subject">
+                        <select id="subject"  class="font-medium text-[14px] text-[#4F4F4F] w-[407px] h-[42px] border-[#A7A7A7] border-[0.5px] rounded-[4px] pl-[10px] outline-none">
+                            <option disabled selected>Subject</option>
+                            <option value="math">Mathematics</option>
+                            <option value="science">Science</option>
+                            <option value="history">History</option>
+                        </select>
                     </label>
                     <label class="flex flex-col gap-[5px]">
                         <span class="font-medium text-[14px] text-[#8A8A8A]">About</span>
-                        <input class="font-medium text-[14px] text-[#8A8A8A] w-[406px] border-[1px] border-[#A7A7A7] h-[125px]" type="text" placeholder="About">
+                        <input class="font-medium text-[14px] text-[#8A8A8A] w-[406px] border-[1px] border-[#A7A7A7] max-h-[125px]" type="text" placeholder="About">
                     </label>
                 </div>
                 <div class="flex flex-col gap-[30px]">
-                    <label class="flex flex-col gap-[5px]">
+                    <label for="subject" class="flex flex-col gap-[5px]">
                         <span class="font-medium text-[14px] text-[#8A8A8A]">Class</span>
-                        <input class="font-medium text-[14px] text-[#8A8A8A] w-[407px] h-[42px] border-[#A7A7A7] border-[0.5px] rounded-[4px] pl-[10px] outline-none" type="text" placeholder="Class">
+                        <select id="subject"  class="font-medium text-[14px] text-[#4F4F4F] w-[407px] h-[42px] border-[#A7A7A7] border-[0.5px] rounded-[4px] pl-[10px] outline-none">
+                            <option disabled selected>Class</option>
+                            <option value="class1">1</option>
+                            <option value="class2">2</option>
+                            <option value="class3">3</option>
+                            <option value="class4">4</option>
+                            <option value="class5">5</option>
+                            <option value="class6">6</option>
+                            <option value="class7">7</option>
+                            <option value="class8">8</option>
+                            <option value="class9">9</option>
+                            <option value="class10">10</option>
+                            <option value="class11">11</option>
+                        </select>
                     </label>
-                    <label class="flex flex-col gap-[5px]">
+                    <label for="subject" class="flex flex-col gap-[5px]">
                         <span class="font-medium text-[14px] text-[#8A8A8A]">Gender</span>
-                        <input class="font-medium text-[14px] text-[#8A8A8A] w-[407px] h-[42px] border-[#A7A7A7] border-[0.5px] rounded-[4px] pl-[10px] outline-none" type="text" placeholder="Gender">
+                        <select id="subject"  class="font-medium text-[14px] text-[#4F4F4F] w-[407px] h-[42px] border-[#A7A7A7] border-[0.5px] rounded-[4px] pl-[10px] outline-none">
+                            <option disabled selected>Gender</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="other">Other</option>
+                        </select>
                     </label>
                     <label class="flex flex-col gap-[5px]">
                         <span class="font-medium text-[14px] text-[#8A8A8A]">Age</span>
@@ -129,6 +154,7 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="./js/password-list.js"></script>
     <script src="./js/teachers-login.js"></script>
 </body>
 </html>
