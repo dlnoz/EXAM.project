@@ -1,6 +1,7 @@
 let changeInput = document.querySelector(".change-img-input")
 let changeImg = document.querySelector(".change-img")
 let userName = document.querySelector(".user-name")
+let listTable = document.querySelector(".dashboard")
 changeImg.src = "./images/profil.photo.png"
 let user = JSON.parse(localStorage.getItem("data"))
 
